@@ -1,0 +1,77 @@
+@import "helper";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  border-radius: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #033862;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #033862;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+body {
+  background: linear-gradient(97deg, rgba(255, 255, 255, 0.08) 0%, rgba(51, 97, 184, 0.08) 48.96%, rgba(221, 85, 75, 0.08) 100%);
+}
+
+.container {
+  max-width: 1180px;
+}
+
+:root {
+  --orange: #FF5B27;
+  --black: #1D1F23;
+  --gray: #949494;
+  --light-gray: #F1F1F1;
+  --white: #FFf;
+}
+
+
+// .......... Menu....
