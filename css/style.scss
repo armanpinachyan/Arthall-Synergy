@@ -607,6 +607,9 @@ body {
       @media (max-width: 992px) {
         top: 110%;
       }
+      @media (max-width: 576px) {
+        right: 0;
+      }
       @media (max-width: 475px) {
         top: 115%;
       }

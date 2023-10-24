@@ -667,6 +667,11 @@ body {
     top: 110%;
   }
 }
+@media (max-width: 576px) {
+  .about-us-inner .blue-link {
+    right: 0;
+  }
+}
 @media (max-width: 475px) {
   .about-us-inner .blue-link {
     top: 115%;
