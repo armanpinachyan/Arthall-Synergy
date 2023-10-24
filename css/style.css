@@ -913,6 +913,11 @@ body {
     transition: 0.3s;
   }
 }
+@media (max-width: 576px) {
+  .synergyEffect-menu-item {
+    font-size: 1rem;
+  }
+}
 .synergyEffect-menu-item.active {
   font-weight: 500;
 }

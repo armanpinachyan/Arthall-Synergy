@@ -821,6 +821,9 @@ body {
         font-size: 16px;
         transition: 0.3s;
       }
+      @media (max-width: 576px){
+        font-size: 1rem;
+      }
       &.active{
         font-weight: 500;
         @media (max-width: 1200px){
