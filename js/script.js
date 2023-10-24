@@ -8,24 +8,68 @@ const {
 
 AOS.init();
 
+const howItWorkingHeight = 2500;
+const prevBtn = $('#prev-howItWorking');
+const nextBtn = $('#next-howItWorking');
+
 gsap.registerPlugin(ScrollTrigger);
 
 ScrollTrigger.create({
     trigger: "#howItWorking",
-    start: `top top-=-79` ,
-    end: `top top-=2500`,
+    start: `top top` ,
+    end: `top top-=${howItWorkingHeight}`,
     pin: true,
     onUpdate: function (e){
         const percent = e.progress * 100;
         if(percent < 80){
             $('.howItWorking-slider img').css('transform', `translateX(-${percent}%)`)
         }
+        checkIcons(percent)
     }
 });
 
-$('#next-howItWorking').on('click', function (){
-    console.log(1)
+nextBtn.on('click', function (){
+    const howItWorking = $('#howItWorking').offset().top;
+    const howItWorkingH = howItWorking + howItWorkingHeight;
+    const scrollTop = $(window).scrollTop();
+    if(scrollTop < howItWorkingH && scrollTop > howItWorking){
+        $(window).scrollTop(scrollTop + 500);
+    }
+
+    checkIcons()
 })
+
+prevBtn.on('click', function (){
+    const howItWorking = $('#howItWorking').offset().top;
+    const howItWorkingH = howItWorking + howItWorkingHeight;
+    const scrollTop = $(window).scrollTop();
+    if(scrollTop < howItWorkingH && scrollTop > howItWorking){
+        $(window).scrollTop(scrollTop - 500);
+    }
+
+    checkIcons()
+})
+
+
+function checkIcons(percent){
+    const howItWorking = $('#howItWorking').offset().top;
+    const howItWorkingH = howItWorking + howItWorkingHeight;
+    const scrollTop = $(window).scrollTop();
+   if(scrollTop <= howItWorking){
+       prevBtn.addClass('disabled')
+   } else {
+       prevBtn.removeClass('disabled')
+   }
+
+
+   if(percent >= 99){
+       nextBtn.addClass('disabled')
+   } else {
+       nextBtn.removeClass('disabled')
+   }
+    console.log(howItWorkingH, scrollTop)
+}
+
 
 //........ Slider
 
