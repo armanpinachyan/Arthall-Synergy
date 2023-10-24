@@ -435,9 +435,14 @@ body {
 
 //........ About/////
 
+.slick-dots{
+  display: none !important;
+}
+
 
 .slick-track {
   display: flex;
+
 
   .slick-slide {
     height: auto !important;
@@ -496,6 +501,7 @@ body {
 }
 
 
+
 .slick-prev {
   background-color: white;
   width: 48px !important;
@@ -541,6 +547,11 @@ body {
   @media (max-width: 425px) {
 
   }
+}
+
+
+.about-us{
+
 }
 
 

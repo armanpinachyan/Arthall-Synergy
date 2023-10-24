@@ -473,6 +473,10 @@ body {
   transform: translateX(0);
 }
 
+.slick-dots {
+  display: none !important;
+}
+
 .slick-track {
   display: flex;
 }
