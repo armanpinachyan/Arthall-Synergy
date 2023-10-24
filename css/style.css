@@ -1,4 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import "../fonts/Bebas Neue Cyrillic/stylesheet.css";
+@import "../fonts/Helvetica Neue/stylesheet.css";
+.cursor-default {
+  cursor: default !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
 ::-webkit-scrollbar {
   width: 5px;
   height: 8px;
@@ -29,7 +38,7 @@
   text-decoration: none;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: "Inter", sans-serif;
+  font-family: "HelveticaNeueCyr", serif;
 }
 
 a {
@@ -65,6 +74,10 @@ body {
   --gray: #949494;
   --light-gray: #F1F1F1;
   --white: #FFf;
+}
+
+.font-babes-neue {
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .menu {

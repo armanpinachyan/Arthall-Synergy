@@ -2,9 +2,9 @@ console.time();
 const colors = {
     white: '#FFF',
     black: '#000',
-    blue: '#033862',
-    gray: '#717F8A',
-    pink: '#C13584',
+    black400: '#292929',
+    black500: '#1D1D1D',
+    gray: '#F6F6F6',
 }
 
 
