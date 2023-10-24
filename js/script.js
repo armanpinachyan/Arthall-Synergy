@@ -58,9 +58,10 @@ let activePanelNavIndex = 0;
 
 let activePanelNavSuccess = true;
 const synergyEffectHeight = 2000;
+
 ScrollTrigger.create({
     trigger: "#synergyEffect",
-    start: `top top` ,
+    start: `top top-=-50` ,
     end: `top top-=${synergyEffectHeight}`,
     pin: true,
     onUpdate: function (e){
