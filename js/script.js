@@ -8,9 +8,24 @@ const {
 
 AOS.init();
 
-gsap.registerPlugin(ScrollToPlugin, ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger);
 
+ScrollTrigger.create({
+    trigger: "#howItWorking",
+    start: `top top-=-79` ,
+    end: `top top-=2500`,
+    pin: true,
+    onUpdate: function (e){
+        const percent = e.progress * 100;
+        if(percent < 80){
+            $('.howItWorking-slider img').css('transform', `translateX(-${percent}%)`)
+        }
+    }
+});
 
+$('#next-howItWorking').on('click', function (){
+    console.log(1)
+})
 
 //........ Slider
 
@@ -76,15 +91,3 @@ $('.slider').slick({
 
 
 
-
-// ScrollTrigger.create({
-//     trigger: "#youll-get",
-//     start: `top top-=-79` ,
-//     end: `top top-=2500`,
-//     pin: true,
-//     onUpdate: function (e){
-//         const percent = e.progress * 100;
-//         console.log(percent)
-//
-//     }
-// });
