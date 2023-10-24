@@ -817,6 +817,26 @@ body {
 
 .selection-done{
 
+&-inner{
+  display: flex;
+
+  .box{
+     max-width: 481px;
+    width: 100%;
+    padding-top: 22px;
+    display: flex;
+    align-items: start;
+    .number{
+      color: #000;
+      font-family: Bebas Neue Cyrillic;
+      font-size: 105.6px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 205.37px; /* 194.479% */
+    }
+  }
+
+}
 
 
 
