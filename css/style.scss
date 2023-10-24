@@ -1093,13 +1093,14 @@ body {
   border-top: 1px solid #D9D9D9;
   border-bottom: 1px solid #D9D9D9;
   height: 590px;
-  margin-top: 66px;
+  margin-top: -180px;
   margin-bottom: 88px;
   @media (max-width: 1200px) {
-    height: 350px;
+    height: 490px;
   }
-  @media (max-width: 992px) {
-    height: 280px;
+  @media (max-width: 576px) {
+    height: 360px;
+    margin-top: -240px;
   }
   @media (max-width: 375px) {
     height: 320px;
@@ -1112,25 +1113,22 @@ body {
     .blue-link{
       position: absolute;
       right: 50px;
-      bottom: 95px;
+      bottom: 55px;
       @media (max-width: 1200px) {
         bottom: 150px;
       }
       @media (max-width: 1100px) {
         bottom: 150px;
       }
-      @media (max-width: 1170px) {
-        bottom: 120px;
-      }
       @media (max-width: 992px) {
-        top: 110%;
+        bottom: -35px;
       }
       @media (max-width: 576px) {
-        top: 115%;
+        bottom: -35px;
         right: 10px;
       }
       @media (max-width: 475px) {
-        top: 115%;
+        bottom: -35px;
       }
     }
     .count-box{
@@ -1164,9 +1162,13 @@ body {
         color: #000;
         font-size: 3.4375rem;
         font-weight: 400;
-        line-height: 54.5px; /* 99.091% */
+        line-height: 54.5px;
+        @media (max-width: 1200px) {
+          margin-top: 17rem;
+        }
         @media (max-width: 1024px) {
           font-size: 2.5rem;
+          margin-top: 19rem;
         }
       }
     }
@@ -1178,7 +1180,7 @@ body {
         align-items: center;
         position: absolute;
         left: 0;
-        top: 22px;
+        top: 5px;
       }
       button{
         padding: 0.625rem 1.5625rem ;
@@ -1214,28 +1216,26 @@ body {
     }
 
     .slider{
-      padding-top: 4.875rem ;
-      padding-left: 9.375rem ;
-      width: 70%;
+      padding-top: 2.875rem ;
+      padding-left: 3.3125rem;
+      width: 80%;
       @media (max-width: 1200px) {
-        padding-left: 7rem;
-        padding-top: 5rem;
         width: 65%;
       }
       @media (max-width: 1100px) {
-        padding-left: 5rem;
       }
       @media (max-width: 992px) {
         width: 100%;
+        padding-top: 4.5625rem ;
         padding-left: 0;
-        padding-top: 6.875rem ;
       }
 
       .col-box{
         display: flex;
+        position: relative;
         img{
           @media (max-width: 576px) {
-            width: 43px;
+            width: 163px;
           }
         }
         p{
@@ -1245,6 +1245,11 @@ body {
           line-height: 54.5px;
           margin-left: 1rem ;
           margin-top: 3px;
+          position: absolute;
+          background: #fff;
+          left: 27%;
+          top: 60%;
+          padding: 6px 0 10px 17px;
           @media (max-width: 1200px) {
             font-size: 1.4rem;
             line-height: 40px;
@@ -1265,8 +1270,7 @@ body {
 
       .slick-track {
         display: flex;
-
-
+        padding-bottom: 80px;
         .slick-slide {
           height: auto !important;
           margin-right: 20px !important;
@@ -1291,7 +1295,7 @@ body {
         height: 55px !important;
         display: inline-block;
         position: absolute;
-        top: 102%;
+        top: 126%;
         left: 38%;
         border-radius: 50% !important;
         padding: 14px !important;
@@ -1301,11 +1305,11 @@ body {
         opacity: .5;
         @media (max-width: 1200px) {
           left: 43%;
-          top: 110%;
+          top: 100%;
         }
         @media (max-width: 992px) {
           left: 8%;
-          top: 112%;
+          top: 100%;
         }
         @media (max-width: 768px) {
           left: 9%;
@@ -1355,7 +1359,7 @@ body {
         display: inline-block;
         position: absolute !important;
         left: 31%;
-        top: 102%;
+        top: 126%;
         border-radius: 50% !important;
         padding: 14px !important;
         border: 1px solid #292929;
@@ -1365,11 +1369,11 @@ body {
         opacity: .5;
         @media (max-width: 1200px) {
           left: 34%;
-          top: 110%;
+          top: 100%;
         }
         @media (max-width: 992px) {
           left: 0;
-          top: 112%;
+          top: 100%;
         }
 
         &:active {
