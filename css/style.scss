@@ -444,6 +444,10 @@ body {
   &-slider{
     img{
       transform: translateX(0);
+      height: auto;
+      @media (max-width: 992px){
+        width: 2000px;
+      }
     }
   }
 }

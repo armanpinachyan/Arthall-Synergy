@@ -492,6 +492,12 @@ body {
 
 .howItWorking-slider img {
   transform: translateX(0);
+  height: auto;
+}
+@media (max-width: 992px) {
+  .howItWorking-slider img {
+    width: 2000px;
+  }
 }
 
 .slick-dots {
