@@ -15,8 +15,12 @@
   <link rel="apple-touch-icon" href="android-chrome-192x192.png">
   <meta name="msapplication-config" content="browserconfig.xml"/>
 
+  <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/aos.js"></script>
+  <script src="js/gsap.min.js"></script>
+  <script src="js/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="icons/icons.css">
@@ -132,16 +136,28 @@
    </header>
 
 
-   <section class="howItWorking pt-143">
+   <section class="howItWorking pt-143" id="howItWorking">
      <div class="container">
        <div class="mb-31">
          <button class="btn btn-outline-dark br-30 text-uppercase c-black500 cursor-default">как это работает</button>
        </div>
-       <div class="d-flex justify-content-between align-items-center">
+       <div class="d-flex justify-content-between align-items-center mb-60">
          <p class="c-black400 fs-26 lh-42 %w-76">
            Заходи на трек. Каждый этап решает конкретную задачу при помощи экспертов.
            В итоге, ты получишь сильный личный бренд и сможешь заявить о себе всему миру!
          </p>
+
+         <div class="d-flex justify-content-between align-items-center">
+           <button class="btn btn-outline-dark rounded-circle w-55 h-55 fs-20 me-2 disabled">
+             <i class="fa-regular fa-arrow-left"></i>
+           </button>
+           <button class="btn btn-outline-dark rounded-circle w-55 h-55 fs-20">
+             <i class="fa-regular fa-arrow-right"></i>
+           </button>
+         </div>
+       </div>
+       <div class="howItWorking-slider">
+         <img src="images/work-etaps.svg" alt="как это работает" width="3789" height="483">
        </div>
      </div>
    </section>

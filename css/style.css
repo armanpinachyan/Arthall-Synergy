@@ -341,4 +341,8 @@ body {
   width: 100%;
 }
 
+.howItWorking-slider img {
+  transform: translateX(0);
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -5,84 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aca4282c-5fab-46bb-9db6-0046a6db4e56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fonts/Bebas Neue Cyrillic/BebasNeue-Thin.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Bebas Neue Cyrillic/BebasNeue-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Bebas Neue Cyrillic/BebasNeue-Thin.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Bebas Neue Cyrillic/BebasNeueBold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Bebas Neue Cyrillic/BebasNeueBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Bebas Neue Cyrillic/BebasNeueBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Bebas Neue Cyrillic/BebasNeueBook.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Bebas Neue Cyrillic/BebasNeueBook.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Bebas Neue Cyrillic/BebasNeueBook.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Bebas Neue Cyrillic/BebasNeueLight.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Bebas Neue Cyrillic/BebasNeueLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Bebas Neue Cyrillic/BebasNeueLight.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Bebas Neue Cyrillic/BebasNeueRegular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Bebas Neue Cyrillic/BebasNeueRegular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Bebas Neue Cyrillic/BebasNeueRegular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Bebas Neue Cyrillic/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Black.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-BlackItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-BlackItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-BoldItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-BoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Heavy.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Heavy.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Heavy.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-HeavyItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-HeavyItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-HeavyItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-LightItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-LightItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-MediumItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-MediumItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Roman.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Roman.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Roman.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Thin.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-Thin.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-ThinItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-ThinItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-UltraLight.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-UltraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-UltraLight.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-UltraLightItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-UltraLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/HelveticaNeueCyr-UltraLightItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Helvetica Neue/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/work-etaps.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/ScrollTrigger.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/gsap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-chrome-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/android-chrome-512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/apple-touch-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/helper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/helper.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icons/icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/icons/icons.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/fastfront.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/fastfront.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -117,10 +50,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AND\Desktop\Arthall-Synergy\js" />
+      <recent name="C:\Users\AND\Desktop\Arthall-Synergy\images" />
       <recent name="C:\Users\AND\Desktop\Arthall-Synergy" />
       <recent name="C:\Users\AND\Desktop\Arthall-Synergy\fonts\Helvetica Neue" />
       <recent name="C:\Users\AND\Desktop\Arthall-Synergy\fonts\Bebas Neue Cyrillic" />
-      <recent name="C:\Users\Lenovo\Desktop\Arthall-Synergy\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\AND\Desktop\Arthall-Synergy" />
@@ -135,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1698064080655</updated>
       <workItem from="1698064082911" duration="8209000" />
-      <workItem from="1698133964270" duration="1878000" />
+      <workItem from="1698133964270" duration="4530000" />
     </task>
     <servers />
   </component>
