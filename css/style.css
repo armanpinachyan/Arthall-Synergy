@@ -469,6 +469,10 @@ body {
   }
 }
 
+.howItWorking-slider img {
+  transform: translateX(0);
+}
+
 .slick-track {
   display: flex;
 }
