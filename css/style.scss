@@ -494,14 +494,33 @@ body {
   font-size: 0;
   transition: .2s;
   opacity: .5;
+  @media (max-width: 1200px) {
+    left: 43%;
+    top: 110%;
+  }
+  @media (max-width: 992px) {
+    left: 8%;
+    top: 112%;
+  }
+  @media (max-width: 768px) {
+    left: 9%;
+  }
+  @media (max-width: 576px) {
+    left: 12%;
+  }
+  @media (max-width: 475px) {
+    left: 13%;
+  }
   @media (max-width: 425px) {
     top: -78px;
   }
   &:active {
     border: 1px solid #292929;
+    opacity: 1;
   }
   &:hover {
     border: 1px solid #292929;
+    opacity: 1;
   }
 
   &:before {
@@ -536,12 +555,22 @@ body {
   font-size: 0;
   transition: .2s;
   opacity: .5;
-  @media (max-width: 425px) {
-    top: -77px;
+  @media (max-width: 1200px) {
+    left: 34%;
+    top: 110%;
+  }
+  @media (max-width: 992px) {
+    left: 0;
+    top: 112%;
   }
 
   &:active {
     border: 1px solid #292929;
+    opacity: 1;
+  }
+  &:hover {
+    border: 1px solid #292929;
+    opacity: 1;
   }
 
   &:before {
@@ -555,18 +584,6 @@ body {
     display: block;
   }
 
-  @media (max-width: 1200px) {
-
-  }
-  @media (max-width: 1024px) {
-
-  }
-  @media (max-width: 768px) {
-
-  }
-  @media (max-width: 425px) {
-
-  }
 }
 
 
@@ -575,6 +592,15 @@ body {
     border-bottom: 1px solid #D9D9D9;
     height: 432px;
   margin-top: 66px;
+  @media (max-width: 1200px) {
+    height: 350px;
+  }
+  @media (max-width: 992px) {
+    height: 280px;
+  }
+  @media (max-width: 375px) {
+    height: 320px;
+  }
   &-inner{
     position: relative;
     display: flex;
@@ -584,12 +610,37 @@ body {
       position: absolute;
       right: 50px;
       bottom: 95px;
+      @media (max-width: 1200px) {
+        bottom: 150px;
+      }
+      @media (max-width: 1100px) {
+        bottom: 150px;
+      }
+      @media (max-width: 1170px) {
+        bottom: 120px;
+      }
+      @media (max-width: 992px) {
+        top: 110%;
+      }
+      @media (max-width: 475px) {
+        top: 115%;
+      }
     }
     .count-box{
       padding-top: 6.875rem ;
       padding-right: 9.375rem ;
       height: 432px;
       border-right: 1px solid #D9D9D9;
+      @media (max-width: 1200px) {
+          padding-right: 5rem;
+        padding-top: 5rem;
+      }
+      @media (max-width: 1100px) {
+          padding-right: 4rem;
+      }
+      @media (max-width: 992px) {
+          display: none;
+      }
       button{
         padding: 0.625rem 1.5625rem ;
         border-radius: 100px;
@@ -607,6 +658,51 @@ body {
         font-size: 3.4375rem;
         font-weight: 400;
         line-height: 54.5px; /* 99.091% */
+        @media (max-width: 1024px) {
+          font-size: 2.5rem;
+        }
+      }
+    }
+
+    .count-box2{
+      display: none !important;
+      @media (max-width: 992px) {
+        display: flex !important;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        top: 22px;
+      }
+      button{
+        padding: 0.625rem 1.5625rem ;
+        border-radius: 100px;
+        background: transparent;
+        border: 2px solid #1D1D1D;
+        color: #1D1D1D;
+        font-size: 1.5625rem;
+        font-weight: 400;
+        line-height: 100%; /* 25px */
+        text-transform: uppercase;
+        @media (max-width: 992px) {
+          font-size: 1.3rem;
+        }
+        @media (max-width: 576px) {
+          font-size: 1rem;
+          border: 1px solid #1D1D1D;
+        }
+      }
+      .count{
+        color: #000;
+        font-size: 3.4375rem;
+        font-weight: 400;
+        margin-left: 20px;
+        line-height: 54.5px; /* 99.091% */
+        @media (max-width: 1024px) {
+          font-size: 2.5rem;
+        } /* 99.091% */
+        @media (max-width: 576px) {
+          font-size: 1.5rem;
+        }
       }
     }
 
@@ -614,16 +710,44 @@ body {
       padding-top: 6.875rem ;
       padding-left: 9.375rem ;
       width: 70%;
+      @media (max-width: 1200px) {
+        padding-left: 7rem;
+        padding-top: 5rem;
+        width: 65%;
+      }
+      @media (max-width: 1100px) {
+        padding-left: 5rem;
+      }
+      @media (max-width: 992px) {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 6.875rem ;
+      }
 
       .col-box{
         display: flex;
+        img{
+          @media (max-width: 576px) {
+            width: 43px;
+          }
+        }
         p{
           color: #292929;
-          font-size: 28px;
+          font-size: 1.75rem;
           font-weight: 400;
           line-height: 54.5px;
-          margin-left: 3.125rem ;
+          margin-left: 1rem ;
           margin-top: 3px;
+          @media (max-width: 1200px) {
+            font-size: 1.4rem;
+            line-height: 40px;
+          }
+          @media (max-width: 992px) {
+            line-height: 28px;
+          }
+          @media (max-width: 576px) {
+            font-size: 1rem;
+          }
         }
       }
     }
