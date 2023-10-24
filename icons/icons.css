@@ -99,6 +99,10 @@
     content: "\f060"
 }
 
+.fa-arrow-up-right:before {
+    content: "\e09f"
+}
+
 
 
 /*---------------------------------*/

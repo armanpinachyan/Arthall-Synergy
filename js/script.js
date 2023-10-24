@@ -34,9 +34,8 @@ ScrollTrigger.create({
     pin: true,
     onUpdate: function (e){
         const percent = e.progress * 100;
-        if(percent < 80){
-            $('.howItWorking-slider img').css('transform', `translateX(-${percent}%)`)
-        }
+        $('.howItWorking-slider img').css('transform', `translateX(-${percent}%)`)
+
         // checkIcons(percent)
     }
 });
