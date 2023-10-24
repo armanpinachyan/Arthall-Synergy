@@ -78,6 +78,24 @@ body {
   font-family: "Bebas Neue", sans-serif;
 }
 
+.btn-def{
+  padding: 0.625rem 1.5625rem;
+  border-radius: 100px;
+  border: 2px solid #1D1D1D;
+  color: #1D1D1D;
+  font-size: 1.5625rem;
+  font-weight: 400;
+  line-height: 100%; /* 25px */
+  text-transform: uppercase;
+  cursor: pointer;
+  background: transparent;
+  @media (max-width: 576px) {
+    font-size: 1.5rem;
+    border-radius: 62.887px;
+    border: 1.258px solid #1D1D1D;
+    padding: 6.289px 15.722px;
+  }
+}
 
 // .......... Menu....
 
@@ -612,6 +630,11 @@ body {
   }
 }
 
+
+
+//.......... About End
+
+
 .synergyEffect{
   &-menu{
     @include flex('sb', 'c');
@@ -658,4 +681,19 @@ body {
 }
 
 
-//.......... About End
+
+//....... Selection
+
+.selection-done{
+
+  .head-button{
+    padding: 10px 25px;
+    border-radius: 100px;
+    border: 2px solid #1D1D1D;
+  }
+
+
+}
+
+
+//........ Selection End
