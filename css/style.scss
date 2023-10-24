@@ -117,6 +117,7 @@ body {
     width: 100%;
     @media (max-width: 992px) {
     justify-content: space-between;
+      padding-top: 10px;
     }
     &-logo{
       margin-right: 10.75rem;
@@ -262,7 +263,7 @@ body {
       &-head{
         color: #292929;
         font-size: 4.6875rem;
-        font-weight: 400;
+        font-weight: 600;
         line-height: 111.3%;
         text-transform: uppercase;
         font-family: 'Bebas Neue', sans-serif;
@@ -271,6 +272,7 @@ body {
         }
         @media (max-width: 768px) {
           font-size: 2.875rem;
+          margin-left: 1rem;
         }
       }
 
@@ -312,6 +314,9 @@ body {
           font-size: 1.1785625rem;
           font-weight: 500;
           line-height: normal;
+          @media (max-width: 768px) {
+            margin-left: 1rem;
+          }
         }
       }
 
@@ -337,7 +342,7 @@ body {
         color: #292929;
         font-size: 2.8125rem;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 600;
         line-height: 87%; /* 20.88px */
         text-transform: uppercase;
         background: #F6F6F6;
@@ -362,7 +367,7 @@ body {
         color: #292929;
         font-size: 3.9375rem;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 600;
         line-height: 87%; /* 20.88px */
         text-transform: uppercase;
         background: #F6F6F6;
@@ -393,11 +398,14 @@ body {
 
   &-title{
     margin-top:  12.6875rem;
+    @media (max-width: 1024px) {
+      margin-top: 9rem;
+    }
     @media (max-width: 992px) {
       margin-top: 11rem;
     }
     @media (max-width: 768px) {
-      margin-top: 8rem;
+      margin-top: 10rem;
     }
     &-1{
       max-width: 1000px;
@@ -660,7 +668,7 @@ body {
         display: inline-block;
         position: absolute;
         top: 102%;
-        left: 38%;
+        left: 34%;
         border-radius: 50% !important;
         padding: 14px !important;
         border: 1px solid #292929;
@@ -722,7 +730,7 @@ body {
         height: 55px !important;
         display: inline-block;
         position: absolute !important;
-        left: 31%;
+        left: 27%;
         top: 102%;
         border-radius: 50% !important;
         padding: 14px !important;
@@ -840,7 +848,11 @@ body {
 //....... Selection
 
 .selection-done{
-  margin-bottom: 300px;
+  margin-top: 6.4375rem ;
+  @media (max-width: 576px) {
+    margin-top: 3rem;
+  }
+
 &-inner{
   display: flex;
   margin-top: 5.5rem;
@@ -1093,14 +1105,14 @@ body {
   border-top: 1px solid #D9D9D9;
   border-bottom: 1px solid #D9D9D9;
   height: 590px;
-  margin-top: -180px;
+  margin-top: 7.0625rem ;
   margin-bottom: 88px;
   @media (max-width: 1200px) {
     height: 490px;
   }
   @media (max-width: 576px) {
     height: 360px;
-    margin-top: -240px;
+   margin-top: 45px;
   }
   @media (max-width: 375px) {
     height: 320px;
