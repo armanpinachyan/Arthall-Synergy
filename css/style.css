@@ -233,19 +233,40 @@ body {
 .header {
   margin-top: 7rem;
 }
+@media (max-width: 768px) {
+  .header {
+    margin-top: 1.8125rem;
+  }
+}
 .header-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
 }
+@media (max-width: 992px) {
+  .header-inner {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 .header-inner-box-head {
   color: #292929;
-  font-size: 45px;
+  font-size: 4.6875rem;
   font-weight: 400;
   line-height: 111.3%;
   text-transform: uppercase;
   font-family: "Bebas Neue", sans-serif;
+}
+@media (max-width: 1024px) {
+  .header-inner-box-head {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .header-inner-box-head {
+    font-size: 2.875rem;
+  }
 }
 .header-inner-box-button {
   max-width: 556px;
@@ -261,15 +282,30 @@ body {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 992px) {
+  .header-inner-box-button {
+    left: -30px;
+    top: -30px;
+    margin-top: 0;
+  }
+}
+@media (max-width: 576px) {
+  .header-inner-box-button {
+    justify-content: left;
+    max-width: 100%;
+    left: 10px;
+    top: -50px;
+  }
+}
 .header-inner-box-button button {
-  max-width: 315.857px;
+  max-width: 19.7410625rem;
   width: 100%;
   text-align: center;
-  height: 66px;
+  height: 4.125rem;
   border: 1.692px solid #000;
   background: rgba(255, 255, 255, 0.5);
   color: #000;
-  font-size: 18.857px;
+  font-size: 1.1785625rem;
   font-weight: 500;
   line-height: normal;
 }
@@ -281,6 +317,12 @@ body {
   right: 0;
   top: -100px;
 }
+@media (max-width: 992px) {
+  .header-inner-video {
+    position: unset;
+    max-width: unset;
+  }
+}
 .header-inner-video video {
   width: 100%;
   height: 100%;
@@ -289,7 +331,7 @@ body {
 .header-inner-video h2 {
   color: #292929;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 45px;
+  font-size: 2.8125rem;
   font-style: normal;
   font-weight: 400;
   line-height: 87%; /* 20.88px */
@@ -303,10 +345,25 @@ body {
   transform: translateX(-50%);
   z-index: 1;
 }
+@media (max-width: 1024px) {
+  .header-inner-video h2 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 992px) {
+  .header-inner-video h2 {
+    top: 99%;
+  }
+}
+@media (max-width: 768px) {
+  .header-inner-video h2 {
+    font-size: 1.5rem;
+  }
+}
 .header-inner-video h3 {
   color: #292929;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 63px;
+  font-size: 3.9375rem;
   font-style: normal;
   font-weight: 400;
   line-height: 87%; /* 20.88px */
@@ -315,30 +372,88 @@ body {
   white-space: nowrap;
   position: absolute;
   top: 108%;
-  padding: 20px;
+  padding: 1.25rem;
   left: 83%;
   transform: translateX(-50%);
   z-index: 1;
 }
+@media (max-width: 1024px) {
+  .header-inner-video h3 {
+    font-size: 3rem;
+    left: 68%;
+    top: 104%;
+  }
+}
+@media (max-width: 992px) {
+  .header-inner-video h3 {
+    font-size: 3rem;
+    left: 68%;
+    top: 107%;
+  }
+}
+@media (max-width: 768px) {
+  .header-inner-video h3 {
+    font-size: 2.25rem;
+  }
+}
 .header-title {
-  margin-top: 203px;
+  margin-top: 12.6875rem;
+}
+@media (max-width: 992px) {
+  .header-title {
+    margin-top: 11rem;
+  }
+}
+@media (max-width: 768px) {
+  .header-title {
+    margin-top: 8rem;
+  }
 }
 .header-title-1 {
   max-width: 1000px;
   width: 100%;
   color: #292929;
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: 400;
   line-height: 43px; /* 165.385% */
 }
+.header-title-1 span {
+  color: #292929;
+  font-size: 1.625rem;
+  font-weight: 500;
+  line-height: 43px;
+}
+@media (max-width: 768px) {
+  .header-title-1 span {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .header-title-1 {
+    font-size: 16px;
+    line-height: 23px;
+  }
+}
 .header-title-2 {
   color: #292929;
-  margin-top: 41px;
-  font-size: 22px;
+  margin-top: 2.5625rem;
+  font-size: 1.375rem;
   font-weight: 400;
   line-height: 40.5px; /* 184.091% */
   max-width: 660px;
   width: 100%;
+}
+@media (max-width: 992px) {
+  .header-title-2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .header-title-2 {
+    font-size: 16px;
+    line-height: 23px;
+  }
 }
 
 .howItWorking-slider img {
