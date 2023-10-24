@@ -354,6 +354,11 @@ body {
   right: -30px;
   top: -50px;
 }
+@media (max-width: 1024px) {
+  .header-inner-video {
+    max-width: 660px;
+  }
+}
 @media (max-width: 992px) {
   .header-inner-video {
     position: unset;
@@ -865,6 +870,11 @@ body {
   position: relative;
   min-width: 1200px;
 }
+@media (max-width: 1200px) {
+  .synergyEffect-menu {
+    left: 50px;
+  }
+}
 @media (max-width: 992px) {
   .synergyEffect-menu {
     position: initial;
@@ -878,10 +888,11 @@ body {
   background: #000;
   width: 250px;
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .synergyEffect-menu-solid {
     width: 1000%;
     background: rgba(0, 0, 0, 0.4);
+    left: -200px;
   }
 }
 .synergyEffect-menu-item {
@@ -896,13 +907,19 @@ body {
   justify-content: start;
   align-items: end;
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .synergyEffect-menu-item {
     font-size: 16px;
+    transition: 0.3s;
   }
 }
 .synergyEffect-menu-item.active {
   font-weight: 500;
+}
+@media (max-width: 1200px) {
+  .synergyEffect-menu-item.active {
+    transform: scale(1.3) translateY(-5px);
+  }
 }
 .synergyEffect-body {
   padding-top: 61px;
@@ -914,7 +931,7 @@ body {
 .synergyEffect-body-item.active {
   display: block;
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .synergyEffect-body .left-text {
     position: relative;
     left: -100px;

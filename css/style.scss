@@ -324,6 +324,9 @@ body {
       z-index: -1;
       right: -30px;
       top: -50px;
+      @media (max-width: 1024px) {
+        max-width: 660px;
+      }
       @media (max-width: 992px) {
         position: unset;
         max-width: unset;
@@ -780,6 +783,10 @@ body {
     position: relative;
     min-width: 1200px;
 
+    @media (max-width: 1200px){
+      left: 50px;
+    }
+
     @media (max-width: 992px){
       position: initial;
     }
@@ -792,9 +799,10 @@ body {
       background: #000;
       width: 250px;
 
-      @media (max-width: 992px) {
+      @media (max-width: 1200px) {
         width: 1000%;
         background: rgba(0, 0, 0, 0.4);
+        left: -200px;
       }
     }
     &-item{
@@ -809,11 +817,15 @@ body {
       justify-content: start;
       align-items: end;
 
-      @media (max-width: 992px){
+      @media (max-width: 1200px){
         font-size: 16px;
+        transition: 0.3s;
       }
       &.active{
         font-weight: 500;
+        @media (max-width: 1200px){
+          transform: scale(1.3) translateY(-5px);
+        }
       }
     }
   }
@@ -827,7 +839,7 @@ body {
       }
     }
     .left-text{
-      @media (min-width: 992px) {
+      @media (min-width: 1200px) {
         position: relative;
         left: -100px;
       }
