@@ -29,37 +29,52 @@ prevBtn.on('click', function (){
 
 ScrollTrigger.create({
     trigger: "#howItWorking",
-    start: `top top-=+100` ,
+    start: `top top` ,
     end: `top top-=${howItWorkingHeight}`,
     pin: true,
     onUpdate: function (e){
         const percent = e.progress * 100;
-        $('.howItWorking-slider img').css('transform', `translateX(-${percent}%)`)
+        $('.howItWorking-slider img').css('transform', `translateX(-${percent - checkPercent(percent)}%)`);
 
         // checkIcons(percent)
     }
 });
 
+
+function checkPercent(percent){
+    const windowsWidth = $(window).width();
+    if(windowsWidth < 768){
+        return percent > 20 ? 10 : 0
+    } else {
+        return 20
+    }
+}
+
 const panelNav = $('.synergyEffect-menu-item');
 const solidElem = $('.synergyEffect-menu-solid');
 const synergyEffectBodyItem = $('.synergyEffect-body-item');
+const synergyEffectMenu = $('.synergyEffect-menu');
 let activePanelNavIndex = 0;
 
 let activePanelNavSuccess = true;
 const synergyEffectHeight = 2000;
 ScrollTrigger.create({
     trigger: "#synergyEffect",
-    start: `top top-=+150` ,
+    start: `top top` ,
     end: `top top-=${synergyEffectHeight}`,
     pin: true,
     onUpdate: function (e){
         const percent = e.progress * 100;
-        const activeIndex = +(percent / (100 / panelNav.length)).toFixed()
+        const activeIndex = +(percent / (100 / panelNav.length)).toFixed();
+        const windowWidth = $(window).width();
         console.log(activeIndex)
-        solidElem.css({
-            left: `${percent}%`,
-            transform: `translateX(-${percent}%)`
-        });
+        if(windowWidth > 1200){
+            solidElem.css({
+                left: `${percent}%`,
+                transform: `translateX(-${percent}%)`
+            });
+        }
+
 
         if(activePanelNavSuccess && activeIndex < panelNav.length){
             panelNav.removeClass(active);
@@ -68,6 +83,10 @@ ScrollTrigger.create({
             const synergyEffectBodyItemActive = $(synergyEffectBodyItem[activeIndex]);
             activeItem.addClass(active);
             synergyEffectBodyItemActive.addClass(active);
+        }
+
+        if(windowWidth < 1200){
+            synergyEffectMenu.css('transform', `translateX(-${percent}%)`)
         }
 
         if(activePanelNavIndex !== activeIndex){

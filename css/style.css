@@ -863,6 +863,12 @@ body {
   padding-bottom: 20px;
   border-bottom: 2px solid #D9D9D9;
   position: relative;
+  min-width: 1200px;
+}
+@media (max-width: 992px) {
+  .synergyEffect-menu {
+    position: initial;
+  }
 }
 .synergyEffect-menu-solid {
   position: absolute;
@@ -871,6 +877,12 @@ body {
   height: 2px;
   background: #000;
   width: 250px;
+}
+@media (max-width: 992px) {
+  .synergyEffect-menu-solid {
+    width: 1000%;
+    background: rgba(0, 0, 0, 0.4);
+  }
 }
 .synergyEffect-menu-item {
   color: #000;
@@ -884,11 +896,17 @@ body {
   justify-content: start;
   align-items: end;
 }
+@media (max-width: 992px) {
+  .synergyEffect-menu-item {
+    font-size: 16px;
+  }
+}
 .synergyEffect-menu-item.active {
   font-weight: 500;
 }
 .synergyEffect-body {
   padding-top: 61px;
+  margin-bottom: 100px;
 }
 .synergyEffect-body-item {
   display: none;
@@ -896,9 +914,11 @@ body {
 .synergyEffect-body-item.active {
   display: block;
 }
-.synergyEffect-body .left-text {
-  position: relative;
-  left: -100px;
+@media (min-width: 992px) {
+  .synergyEffect-body .left-text {
+    position: relative;
+    left: -100px;
+  }
 }
 
 .selection-done {
