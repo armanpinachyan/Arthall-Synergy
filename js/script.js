@@ -150,7 +150,7 @@ $('.slider').slick({
 
     const i = (currentSlide ? currentSlide : 0) + 1;
 
-    $('.count-box .count').text(i + '/' + (slick.$dots[0].children.length));
+    $('.news-inner .count').text(i + '/' + (slick.$dots[0].children.length));
 })
 
 
