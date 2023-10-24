@@ -422,6 +422,13 @@ body {
 
 }
 
+.howItWorking{
+  &-slider{
+    img{
+      transform: translateX(0);
+    }
+  }
+}
 
 //....... Header End
 
