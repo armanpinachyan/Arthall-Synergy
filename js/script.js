@@ -14,9 +14,22 @@ const nextBtn = $('#next-howItWorking');
 
 gsap.registerPlugin(ScrollTrigger);
 
+nextBtn.on('click', function (){
+    const scrollTop = $(window).scrollTop();
+    $(window).scrollTop(scrollTop + 500);
+
+})
+
+prevBtn.on('click', function (){
+    const scrollTop = $(window).scrollTop();
+    $(window).scrollTop(scrollTop - 500);
+
+})
+
+
 ScrollTrigger.create({
     trigger: "#howItWorking",
-    start: `top top` ,
+    start: `top top-=+100` ,
     end: `top top-=${howItWorkingHeight}`,
     pin: true,
     onUpdate: function (e){
@@ -24,52 +37,48 @@ ScrollTrigger.create({
         if(percent < 80){
             $('.howItWorking-slider img').css('transform', `translateX(-${percent}%)`)
         }
-        checkIcons(percent)
+        // checkIcons(percent)
     }
 });
 
-nextBtn.on('click', function (){
-    const howItWorking = $('#howItWorking').offset().top;
-    const howItWorkingH = howItWorking + howItWorkingHeight;
-    const scrollTop = $(window).scrollTop();
-    if(scrollTop < howItWorkingH && scrollTop > howItWorking){
-        $(window).scrollTop(scrollTop + 500);
+const panelNav = $('.synergyEffect-menu-item');
+const solidElem = $('.synergyEffect-menu-solid');
+const synergyEffectBodyItem = $('.synergyEffect-body-item');
+let activePanelNavIndex = 0;
+
+let activePanelNavSuccess = true;
+const synergyEffectHeight = 2000;
+ScrollTrigger.create({
+    trigger: "#synergyEffect",
+    start: `top top-=+150` ,
+    end: `top top-=${synergyEffectHeight}`,
+    pin: true,
+    onUpdate: function (e){
+        const percent = e.progress * 100;
+        const activeIndex = +(percent / (100 / panelNav.length)).toFixed()
+        console.log(activeIndex)
+        solidElem.css({
+            left: `${percent}%`,
+            transform: `translateX(-${percent}%)`
+        });
+
+        if(activePanelNavSuccess && activeIndex < panelNav.length){
+            panelNav.removeClass(active);
+            synergyEffectBodyItem.removeClass(active);
+            const activeItem = $(panelNav[activeIndex]);
+            const synergyEffectBodyItemActive = $(synergyEffectBodyItem[activeIndex]);
+            activeItem.addClass(active);
+            synergyEffectBodyItemActive.addClass(active);
+        }
+
+        if(activePanelNavIndex !== activeIndex){
+            activePanelNavIndex = activeIndex;
+            activePanelNavSuccess = true;
+        }
+
+        // checkIcons(percent)
     }
-
-    checkIcons()
-})
-
-prevBtn.on('click', function (){
-    const howItWorking = $('#howItWorking').offset().top;
-    const howItWorkingH = howItWorking + howItWorkingHeight;
-    const scrollTop = $(window).scrollTop();
-    if(scrollTop < howItWorkingH && scrollTop > howItWorking){
-        $(window).scrollTop(scrollTop - 500);
-    }
-
-    checkIcons()
-})
-
-
-function checkIcons(percent){
-    const howItWorking = $('#howItWorking').offset().top;
-    const howItWorkingH = howItWorking + howItWorkingHeight;
-    const scrollTop = $(window).scrollTop();
-   if(scrollTop <= howItWorking){
-       prevBtn.addClass('disabled')
-   } else {
-       prevBtn.removeClass('disabled')
-   }
-
-
-   if(percent >= 99){
-       nextBtn.addClass('disabled')
-   } else {
-       nextBtn.removeClass('disabled')
-   }
-    console.log(howItWorkingH, scrollTop)
-}
-
+});
 
 //........ Slider
 
